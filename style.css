@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.clock {
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.clock__center {
+    background-color: #000;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 313px;
+    left: 452px;
+}
+
+.clock__hand {
+  width: 200px;
+  height: 10px;
+  background: #000;
+  position: absolute;
+  top: 320px;
+}
+
+.clock__hand--seconds {
+  transform: rotate(90deg);
+  transform-origin: 100%;
