@@ -16,16 +16,17 @@ body {
   border-radius: 50%;
   width: 400px;
   height: 400px;
+  position: relative;
 }
 
 .clock__center {
-    background-color: #000;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    top: 313px;
-    left: 452px;
+  background-color: #000;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 190px;
+  right: 190px;
 }
 
 .clock__hand {
@@ -33,9 +34,10 @@ body {
   height: 10px;
   background: #000;
   position: absolute;
-  top: 320px;
+  top: 195px;
 }
 
 .clock__hand--seconds {
   transform: rotate(90deg);
   transform-origin: 100%;
+}
